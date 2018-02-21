@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="C:\Users\Jean-Jack\AndroidStudioProjects\DIY-Ecards\libraries\Library\res" >
+            <file
+                path="C:\Users\Jean-Jack\AndroidStudioProjects\DIY-Ecards\libraries\Library\res\values\fiv__attrs.xml"
+                qualifiers="" >
+                <declare-styleable name="FlipImageView" >
+                    <attr
+                        name="isAnimated"
+                        format="boolean" />
+                    <attr
+                        name="isFlipped"
+                        format="boolean" />
+                    <attr
+                        name="flipDrawable"
+                        format="reference" />
+                    <attr
+                        name="flipDuration"
+                        format="integer" />
+                    <attr
+                        name="flipInterpolator"
+                        format="reference" />
+                    <attr name="flipRotations" >
+                        <flag
+                            name="none"
+                            value="0" />
+                        <flag
+                            name="x"
+                            value="1" />
+                        <flag
+                            name="y"
+                            value="2" />
+                        <flag
+                            name="z"
+                            value="4" />
+                    </attr>
+                    <attr
+                        name="reverseRotation"
+                        format="boolean" />
+                </declare-styleable>
+            </file>
+            <file
+                path="C:\Users\Jean-Jack\AndroidStudioProjects\DIY-Ecards\libraries\Library\res\values\fiv__defaults.xml"
+                qualifiers="" >
+                <integer name="default_fiv_duration" >
+500
+                </integer>
+
+                <bool name="default_fiv_isRotationReversed" >
+false
+                </bool>
+
+                <integer name="default_fiv_rotations" >
+2
+                </integer>
+
+                <bool name="default_fiv_isAnimated" >
+true
+                </bool>
+                <bool name="default_fiv_isFlipped" >
+false
+                </bool>
+            </file>
+        </source>
+        <source path="C:\Users\Jean-Jack\AndroidStudioProjects\DIY-Ecards\libraries\Library\build\generated\res\rs\debug" />
+        <source path="C:\Users\Jean-Jack\AndroidStudioProjects\DIY-Ecards\libraries\Library\build\generated\res\generated\debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="C:\Users\Jean-Jack\AndroidStudioProjects\DIY-Ecards\libraries\Library\src\debug\res" />
+    </dataSet>
+
+</merger>

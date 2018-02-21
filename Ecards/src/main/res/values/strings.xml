@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DIY-Ecards</string>
+    <string name="app_id">803980339631776</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_About">About</string>
+    <string name="action_Exit">Exit</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="continueTxt">skip</string>
+    <string name="TextViewTxt">Nothing Displayed Yet</string>
+    <string name="ActionBarText">Let\'s set things up!</string>
+    <string name="FBLogin">Setting up Facebook Login</string>
+    <string name="promotion1">Promotion1</string>
+    <string name="Promotion2">Promotion2</string>
+    <string name="skipText">Permanently skip this step</string>
+    <string name="title_activity_menu">menuActivity</string>
+    <string name="About_Btn_close_Text">Close</string>
+    <string name="Txt_ExitApplication">Exit Application</string>
+    <string name="Txt_EcardHistory">View E-Cards History</string>
+    <string name="Txt_MakeEcard">Create an E-Card</string>
+    <string name="action_about">About</string>
+    <string name="title_activity_ecard_designer">EcardDesigner</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="EcardDesigner_Title">Enter Your Title Here</string>
+    <string name="popUp_EnterTitleHere">Enter Custom Title Here</string>
+    <string name="pop_up_set_title">Set Title</string>
+    <string name="pop_up_set_image">Set Image</string>
+    <string name="pop_up_set_body_text">Set Body Text</string>
+    <string name="Btn_Dismiss">Save</string>
+    <string name="Lbl_EnterTitle">Enter Your Title Here</string>
+    <string name="prompt">Choose a Text Color</string>
+    <string name="Color">Color</string>
+    <string name="Size">Size</string>
+    <string name="Background">Choose a Background</string>
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>White</item>
+        <item>Black</item>
+        <item>Gray</item>
+        <item>Beige</item>
+        <item>Brown</item>
+        <item>Violet</item>
+        <item>Blue Violet</item>
+        <item>Dark Blue</item>
+        <item>Blue</item>
+        <item>Light Blue</item>
+        <item>Dark Green</item>
+        <item>Green</item>
+        <item>Pure Green</item>
+        <item>Yellow</item>
+        <item>Dark Red</item>
+        <item>Red</item>
+        <item>Orange</item>
+        <item>Pink</item>
+
+    </string-array>
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/sb_white</item>
+        <item>@drawable/sb_black</item>
+        <item>@drawable/sb_gray</item>
+        <item>@drawable/sb_beige</item>
+        <item>@drawable/sb_brown</item>
+        <item>@drawable/sb_violet</item>
+        <item>@drawable/sb_blue_violet</item>
+        <item>@drawable/sb_dark_blue</item>
+        <item>@drawable/sb_blue</item>
+        <item>@drawable/sb_light_blue</item>
+        <item>@drawable/sb_dark_green_cyan</item>
+        <item>@drawable/sb_green</item>
+        <item>@drawable/sb_pure_green</item>
+        <item>@drawable/sb_yellow</item>
+        <item>@drawable/sb_dark_red</item>
+        <item>@drawable/sb_red</item>
+        <item>@drawable/sb_orange</item>
+        <item>@drawable/sb_pink</item>
+    </array>
+
+</resources>

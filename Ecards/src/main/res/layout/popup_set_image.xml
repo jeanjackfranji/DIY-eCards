@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="410dp"
+        android:orientation="vertical"
+        android:layout_margin="0dp"
+        android:background="@android:drawable/alert_light_frame"
+        android:layout_gravity="center_horizontal">
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/Btn_ClosePopUpWindow"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:background="@drawable/rounded_button"
+            android:src="@drawable/ic_close_button"
+            android:layout_gravity="top|right"
+            android:onClick="Btn_ExitPopUpClicked"/>
+        <RelativeLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:gravity="center|top"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#009a49"
+                android:gravity="center"
+                android:typeface="serif"
+                android:text="@string/pop_up_set_image" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginTop="55dp"
+                android:layout_marginLeft="85dp"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:textColor="#009a49"
+                android:gravity="center_horizontal"
+                android:typeface="serif"
+                android:text="Choose From Gallery"
+                android:clickable="true"
+                android:onClick = "ImgView_ChooseImage_Clicked"
+            />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_gravity="left"
+                android:src="@drawable/ic_action_picture"
+                android:id="@+id/ImgView_ChooseImage"
+                android:onClick = "ImgView_ChooseImage_Clicked"
+                />
+            <ListView
+                android:layout_width="fill_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="100dp"
+                android:id ="@+id/LV_Images"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+            </ListView>
+            </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

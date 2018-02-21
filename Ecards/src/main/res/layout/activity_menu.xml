@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ISD.diy_ecards.ecards.menuActivity"
+    android:background="@drawable/layout_activity_mainmenu">
+
+    <Button
+        android:id="@+id/Btn_MakeEcard"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        android:text="@string/Txt_MakeEcard"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_selector"
+        android:layout_marginEnd="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:onClick="Btn_MakeEcard_Clicked"/>
+
+    <Button
+        android:id="@+id/Btn_ViewEcardsHistory"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:textStyle="bold"
+        android:text="@string/Txt_EcardHistory"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_selector"
+        android:layout_marginEnd="0dp"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/Btn_MakeEcard"
+        android:layout_alignLeft="@+id/Btn_MakeEcard"
+        android:layout_alignStart="@+id/Btn_MakeEcard" />
+
+    <Button
+        android:id="@+id/Btn_Exit"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        android:text="@string/Txt_ExitApplication"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_selector"
+        android:layout_marginEnd="0dp"
+        android:layout_marginTop="56dp"
+        android:layout_below="@+id/Btn_ViewEcardsHistory"
+        android:layout_alignLeft="@+id/Btn_ViewEcardsHistory"
+        android:layout_alignStart="@+id/Btn_ViewEcardsHistory"
+        android:onClick="Btn_ExitClicked"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="5dp"
+        android:padding="7dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/imageView"
+        android:src="@drawable/text_design_ecard" />
+</RelativeLayout>

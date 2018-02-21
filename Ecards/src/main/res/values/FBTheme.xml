@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- the theme applied to the application or activity -->
+    <style name="FBActionBarTheme"
+        parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MyFBColorActionBar</item>
+    </style>
+
+    <!-- ActionBar styles - yellow:ffbb33 -->
+    <style name="MyFBColorActionBar"
+        parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/com_facebook_blue</item>
+    </style>
+</resources>

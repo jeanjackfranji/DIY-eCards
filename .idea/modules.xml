@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DIY-Ecards.iml" filepath="$PROJECT_DIR$/DIY-Ecards.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ecards/Ecards.iml" filepath="$PROJECT_DIR$/Ecards/Ecards.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Library/Library.iml" filepath="$PROJECT_DIR$/Library/Library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/facebook/facebook.iml" filepath="$PROJECT_DIR$/libraries/facebook/facebook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/Library/libraries-Library.iml" filepath="$PROJECT_DIR$/libraries/Library/libraries-Library.iml" />
+    </modules>
+  </component>
+</project>
+

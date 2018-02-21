@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="430dp"
+        android:orientation="vertical"
+        android:layout_margin="0dp"
+        android:background="@android:drawable/alert_light_frame"
+        android:layout_gravity="center_horizontal">
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/Btn_ClosePopUpWindow"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:background="@drawable/rounded_button"
+            android:src="@drawable/ic_close_button"
+            android:layout_gravity="top|right"
+            android:onClick="Btn_ExitPopUpClicked"/>
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:gravity="center|top"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#009a49"
+                android:gravity="center"
+                android:typeface="serif"
+                android:text="@string/pop_up_set_title" />
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id = "@+id/editText_Title"
+                android:inputType="text|textCapSentences"
+                android:imeOptions="actionDone"
+                android:hint="@string/popUp_EnterTitleHere"
+                android:maxLength="25"/>
+            <ListView
+                android:layout_width="fill_parent"
+                android:layout_height="160dp"
+                android:id ="@+id/LV_Titles">
+            </ListView>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="180dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="#009a49"
+                android:gravity="center"
+                android:typeface="serif"
+                android:text="@string/Color" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="#009a49"
+                android:gravity="center"
+                android:typeface="serif"
+                android:text="@string/Size" />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Spn_TxtColor"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="140dp"
+                android:spinnerMode="dialog"
+                android:drawSelectorOnTop="true"
+                android:prompt="@string/prompt" />
+            <Button
+                android:id="@+id/Btn_Save"
+                android:layout_marginTop="70dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|center_vertical"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:background="@drawable/button_selector"
+                android:text="@string/Btn_Dismiss" />
+
+            <SeekBar
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/seekBar_Size"
+                android:progress="1"
+                android:max= "2" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="25dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/txt_View_TextSize"
+                android:layout_alignTop="@+id/seekBar_Size" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/layout_activity_setup"
+    tools:context="com.ISD.diy_ecards.ecards.MainActivity">
+
+    <com.facebook.widget.LoginButton
+        android:id="@+id/authButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_above="@+id/btn_Skip"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btn_Skip"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        android:drawableLeft="@drawable/ic_skipwhite"
+        android:gravity="left|center"
+        android:text="@string/continueTxt"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_selector"
+        android:layout_marginEnd="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <fr.castorflex.android.flipimageview.library.FlipImageView
+        xmlns:fiv="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/imageview"
+        android:layout_width="500dp"
+        android:layout_height="150dp"
+        android:src="@drawable/text_fb_connect"
+        fiv:flipDrawable="@drawable/text_welcome"
+        fiv:flipDuration="1000"
+        fiv:flipRotations="x|y|z"
+        fiv:isAnimated="true"
+        fiv:isFlipped="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/txtViewDisplayName"
+        android:textColor="#ff009a49"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/text_promotion1"
+        android:id="@+id/ImgViewPromotion1"
+        android:visibility="invisible"
+        android:contentDescription="@string/promotion1"
+        android:layout_below="@+id/imageview"
+        android:layout_marginTop="10dp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:src= "@drawable/text_promotion2"
+        android:id="@+id/ImgViewPromotion2"
+        android:visibility="invisible"
+        android:contentDescription="@string/Promotion2"
+        android:layout_below="@+id/ImgViewPromotion1"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/skipText"
+        android:textStyle="bold"
+        android:id="@+id/chkBox_Skip"
+        android:layout_alignBottom="@+id/btn_Skip"
+        android:layout_marginBottom="2dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/Green"
+        android:textSize="15sp" />
+
+</RelativeLayout>

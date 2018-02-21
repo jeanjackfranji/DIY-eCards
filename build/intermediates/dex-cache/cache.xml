@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Users\Jean-Jack\AndroidStudioProjects\DIY-Ecards\Ecards\build\intermediates\pre-dexed\debug\support-v4-19.1.0-c30e376a8a37b42530721aa3276156097e39d8df.jar"
+        jar="C:\Program Files (x86)\Android\android-sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+    <item
+        dex="C:\Users\Jean-Jack\AndroidStudioProjects\DIY-Ecards\Ecards\build\intermediates\pre-dexed\debug\classes-116b9347f965ab61c4f9a2ea34cc73c298b648e6.jar"
+        jar="C:\Users\Jean-Jack\AndroidStudioProjects\DIY-Ecards\build\intermediates\exploded-aar\DIY-Ecards.libraries\facebook\unspecified\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="fa96b93d12dba7ea3f0b1b717e0fda28b2d2e1ec"/>
+    <item
+        dex="C:\Users\Jean-Jack\AndroidStudioProjects\DIY-Ecards\Ecards\build\intermediates\pre-dexed\debug\classes-7fcbbcabb886fb97254c6171962da9eeeed5278b.jar"
+        jar="C:\Users\Jean-Jack\AndroidStudioProjects\DIY-Ecards\build\intermediates\exploded-aar\DIY-Ecards.libraries\Library\unspecified\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="4f19ea2b5f1758c3ac59af29418e0f6a1a269111"/>
+    <item
+        dex="C:\Users\Jean-Jack\AndroidStudioProjects\DIY-Ecards\Ecards\build\intermediates\pre-dexed\debug\classes-a9e107fd8054cefeee704a98af12acc59ac3f437.jar"
+        jar="C:\Users\Jean-Jack\AndroidStudioProjects\DIY-Ecards\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
+
+</pre-dex-items>

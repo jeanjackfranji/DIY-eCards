@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ISD.diy_ecards.ecards.EcardDesigner" >
+    <item
+        android:id="@+id/action_save"
+        android:title="Save"
+        android:icon ="@drawable/ic_action_save"
+        android:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_share"
+        android:title="Share"
+        android:actionProviderClass="android.widget.ShareActionProvider"
+        android:showAsAction="ifRoom"/>
+    <item android:id="@+id/action_FullScreen"
+        android:icon ="@drawable/ic_action_full_screen"
+        android:title="Full Screen"
+        android:showAsAction="ifRoom" />
+    <item android:id="@+id/action_exit"
+        android:title="@string/action_Exit"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+</menu>

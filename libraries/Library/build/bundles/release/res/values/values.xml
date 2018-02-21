@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/C:/Users/Jean-Jack/AndroidStudioProjects/DIY-Ecards/libraries/Library/res/values/fiv__defaults.xml -->
+    <eat-comment />
+
+    <bool name="default_fiv_isAnimated">true</bool>
+    <bool name="default_fiv_isFlipped">false</bool>
+    <bool name="default_fiv_isRotationReversed">false</bool>
+    <!-- From: file:/C:/Users/Jean-Jack/AndroidStudioProjects/DIY-Ecards/libraries/Library/res/values/fiv__attrs.xml -->
+    <eat-comment />
+
+    <declare-styleable name="FlipImageView">
+        <attr name="isAnimated" format="boolean" />
+        <attr name="isFlipped" format="boolean" />
+        <attr name="flipDrawable" format="reference" />
+        <attr name="flipDuration" format="integer" />
+        <attr name="flipInterpolator" format="reference" />
+        <attr name="flipRotations">
+            <flag name="none" value="0" />
+            <flag name="x" value="1" />
+            <flag name="y" value="2" />
+            <flag name="z" value="4" />
+        </attr>
+        <attr name="reverseRotation" format="boolean" />
+    </declare-styleable>
+    <!-- From: file:/C:/Users/Jean-Jack/AndroidStudioProjects/DIY-Ecards/libraries/Library/res/values/fiv__defaults.xml -->
+    <eat-comment />
+
+    <integer name="default_fiv_duration">500</integer>
+    <integer name="default_fiv_rotations">2</integer>
+
+</resources>
